@@ -1,5 +1,9 @@
 # How to Run
 
+`npm install` to install required packages first. 
+
+This project is using the Hardhat environment from @nomiclabs.
+
 Start a local hardhat node with `npx hardhat node` from the root directory.
 
 Then run `npx hardhat run --network localhost scripts/deploypermit.js` to deploy the contract with an ERC-20 and Permit functions. 
