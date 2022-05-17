@@ -1,3 +1,13 @@
+# How to Run
+
+Start a local hardhat node with `npx hardhat node` from the root directory.
+
+Then run `npx hardhat run --network localhost scripts/deploypermit.js` to deploy the contract with an ERC-20 and Permit functions. 
+
+To test the functions please execute `npx hardhat run --network localhost scripts/tokens.js` which will run the permit process of signing the required information.
+
+
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
