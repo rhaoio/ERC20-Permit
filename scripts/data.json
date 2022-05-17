@@ -1,0 +1,31 @@
+{
+  "types": {
+    "EIP712Domain": [
+      { "name": "name", "type": "string" },
+      { "name": "version", "type": "string" },
+      { "name": "chainId", "type": "uint256" },
+      { "name": "verifyingContract", "type": "address" }
+    ],
+    "Permit": [
+      { "name": "owner", "type": "address" },
+      { "name": "spender", "type": "address" },
+      { "name": "value", "type": "uint256" },
+      { "name": "nonce", "type": "uint256" },
+      { "name": "deadline", "type": "uint256" }
+    ]
+  },
+  "primaryType": "Permit",
+  "domain": {
+    "name": "PolygonPermit",
+    "version": "1",
+    "chainId": 1337,
+    "verifyingContract": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+  },
+  "message": {
+    "owner": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "spender": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+    "value": 50,
+    "nonce": 0,
+    "deadline": 1652604381
+  }
+}
